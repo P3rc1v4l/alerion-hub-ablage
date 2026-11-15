@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "sequence": 1,
+  "generated": "2026-11-15T14:34:32Z",
+  "products": [
+    {
+      "id": "cassidor",
+      "name": "Cassidor",
+      "summary": "Firmensoftware im eigenen Server (Linux, Docker)",
+      "releases": {
+        "linux-x86_64": {
+          "version": "2.316.0",
+          "kind": "installer",
+          "format": "cassidor-setup",
+          "url": "https://github.com/P3rc1v4l/alerion-hub-ablage/releases/download/cassidor-v2.316.0/cassidor-2.316.0.tar.gz",
+          "size": 402877811,
+          "sha256": "af9577af0a584572deb4af9590c2b835f93b7050d75d5f5f5119e5db5e3441da",
+          "extras": [
+            {
+              "name": "einrichten.sh",
+              "url": "https://github.com/P3rc1v4l/alerion-hub-ablage/releases/download/cassidor-v2.316.0/einrichten.sh",
+              "size": 83955,
+              "sha256": "f91c07422f708e7b82d54bf206beff10c1a452ede5a4333bca4a03d5aa53cd36"
+            }
+          ]
+        }
+      },
+      "license": "required",
+      "guide": [
+        "Öffne im Browser die Adresse, die oben steht (im Schnellstart http://<IP dieses Rechners>).",
+        "Melde dich mit der Admin-E-Mail und dem Startpasswort an. Danach fragt Cassidor nach neuem Passwort und zweitem Faktor.",
+        "Damit andere im Firmennetz Cassidor erreichen, in der Firewall Port 80 (TCP) freigeben.",
+        "Ohne Lizenz kannst du alles ansehen und exportieren. Lizenz nachtragen: Administration → Lizenz.",
+        "Eigene Domain mit HTTPS später einrichten: siehe SCHNELLSTART.md im Cassidor-Release."
+      ],
+      "form": "cassidor"
+    }
+  ]
+}
