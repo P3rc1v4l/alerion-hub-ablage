@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "sequence": 1,
-  "generated": "2026-11-15T14:34:32Z",
+  "sequence": 2,
+  "generated": "2026-11-15T14:36:39Z",
   "products": [
     {
       "id": "cassidor",
@@ -34,6 +34,26 @@
         "Eigene Domain mit HTTPS später einrichten: siehe SCHNELLSTART.md im Cassidor-Release."
       ],
       "form": "cassidor"
+    },
+    {
+      "id": "updatecenter",
+      "name": "Update Center",
+      "summary": "Windows, Treiber und Programme aktuell halten",
+      "releases": {
+        "windows-x86_64": {
+          "version": "1.6.0",
+          "kind": "installer",
+          "format": "zip",
+          "url": "https://github.com/P3rc1v4l/UpdateCenter/releases/download/v1.6.0/UpdateCenter-v1.6.0.zip",
+          "size": 1521987,
+          "sha256": "dded7641d5a7e4ff25abbde8f794666d7a6445c53370192c2c1c39b8a287d357",
+          "args": [
+            "Install.ps1",
+            "-Quiet",
+            "-NoLaunch"
+          ]
+        }
+      }
     }
   ]
 }
