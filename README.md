@@ -20,3 +20,13 @@ ssh-keygen -Y verify -f allowed_signers -I alerion -n alerion-hub-catalog \
 Dieses Repo wird nur über das Release-Werkzeug geändert. Bitte keine Pull Requests.
 
 © Luka Kalinka
+
+## Alerion Hub installieren
+
+- **Windows:** neuestes `alerion-hub-…-windows-x86_64-setup.exe` unter
+  [Releases](https://github.com/P3rc1v4l/alerion-hub-ablage/releases) laden und starten.
+- **Linux (Debian/Ubuntu):**
+
+  ```sh
+  curl -fsSL https://raw.githubusercontent.com/P3rc1v4l/alerion-hub-ablage/main/install.sh | sudo sh
+  ```
