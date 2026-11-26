@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "sequence": 6,
-  "generated": "2026-11-20T17:11:39Z",
+  "sequence": 7,
+  "generated": "2026-11-26T13:09:56Z",
   "products": [
     {
       "id": "cassidor",
@@ -63,21 +63,21 @@
       "summary": "Programme von Luka Kalinka herunterladen, installieren und aktuell halten",
       "releases": {
         "linux-x86_64": {
-          "version": "0.1.5",
+          "version": "0.1.6",
           "kind": "installer",
           "format": "deb",
-          "url": "https://github.com/P3rc1v4l/alerion-hub-ablage/releases/download/alerion-hub-v0.1.5/alerion-hub-0.1.5-linux-x86_64.deb",
-          "size": 3931596,
-          "sha256": "692dd9db725b67053ad14f5b0ea263168a23d9dd1bb8d9bdcfa18dd95ba25a4d",
+          "url": "https://github.com/P3rc1v4l/alerion-hub-ablage/releases/download/alerion-hub-v0.1.6/alerion-hub-0.1.6-linux-x86_64.deb",
+          "size": 3950198,
+          "sha256": "58765adc96ddecd3890e18131abaebdbbc8d405b62b1d27eec3e3725fdaea72f",
           "package": "alerion-hub"
         },
         "windows-x86_64": {
-          "version": "0.1.5",
+          "version": "0.1.6",
           "kind": "installer",
           "format": "exe",
-          "url": "https://github.com/P3rc1v4l/alerion-hub-ablage/releases/download/alerion-hub-v0.1.5/alerion-hub-0.1.5-windows-x86_64-setup.exe",
-          "size": 2424810,
-          "sha256": "6c4c1bf51f55686f4d6fd23af933182f01c357bebb499a3f16c8aa4f36295931",
+          "url": "https://github.com/P3rc1v4l/alerion-hub-ablage/releases/download/alerion-hub-v0.1.6/alerion-hub-0.1.6-windows-x86_64-setup.exe",
+          "size": 2435861,
+          "sha256": "689d6af759a81909cee0411d9df6890f92409e2ff8b4de17e8eecaae92886fa1",
           "args": [
             "/S"
           ]
